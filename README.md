@@ -263,4 +263,184 @@ Monika
 
 B.Tech CSE — AI/ML
 
+Data Science Tool Mastery Project
+
+📌 Project Overview
+
+This project demonstrates practical proficiency with key Data Science tools and libraries through an integrated Wine Classification and Exploratory Data Analysis workflow.
+
+The project combines NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn to demonstrate how different Data Science tools work together in a complete analysis and machine learning pipeline.
+
+🎯 Objectives
+
+- Master commonly used Data Science tools and libraries.
+- Perform practical data analysis using Python.
+- Create meaningful data visualizations.
+- Apply machine learning algorithms using Scikit-learn.
+- Evaluate and compare machine learning models.
+- Build a portfolio-ready Data Science project.
+
+📊 Dataset
+
+The project uses the Wine Dataset available through Scikit-learn.
+
+- Samples: 178
+- Features: 13
+- Target Classes: 3
+- Task: Multiclass Classification
+
+The dataset contains chemical measurements of wine samples belonging to three different classes.
+
+🛠️ Tools & Technologies
+
+NumPy
+
+Used for:
+
+- Numerical array operations
+- Mean and standard deviation calculations
+- Vectorized operations
+- Feature standardization
+
+Pandas
+
+Used for:
+
+- Data loading and inspection
+- Data cleaning
+- Descriptive statistics
+- Filtering and sorting
+- Grouping and aggregation
+
+Matplotlib
+
+Used for:
+
+- Bar charts
+- Histograms
+- Scatter plots
+- Box plots
+- Model comparison charts
+
+Seaborn
+
+Used for:
+
+- Statistical visualizations
+- Distribution plots
+- Scatter plots
+- Correlation heatmap
+
+Scikit-learn
+
+Used for:
+
+- Train-test splitting
+- Feature scaling
+- Logistic Regression
+- Random Forest Classification
+- Model evaluation
+- Cross-validation
+- Confusion matrix analysis
+
+🔍 Exploratory Data Analysis
+
+The project includes:
+
+- Dataset structure and statistical summary
+- Missing-value analysis
+- Duplicate-value analysis
+- Class distribution
+- Feature distributions
+- Correlation analysis
+- Relationship between important features
+- Outlier/distribution analysis
+- Feature contribution analysis
+
+🤖 Machine Learning Models
+
+Two classification models were implemented:
+
+1. Logistic Regression
+2. Random Forest Classifier
+
+Model Performance
+
+Model| Accuracy| Precision| Recall| F1 Score
+Random Forest| 1.000| 1.000| 1.000| 1.000
+Logistic Regression| 0.972| 0.974| 0.972| 0.972
+
+Five-fold stratified cross-validation was also performed to obtain a more reliable performance estimate.
+
+📈 Visualizations
+
+The project contains visualizations including:
+
+- Wine Class Distribution
+- Alcohol Distribution
+- Feature Correlation Heatmap
+- Alcohol vs Flavanoids Scatter Plot
+- Color Intensity Box Plot
+- Confusion Matrix
+- Feature Contribution
+- Model Comparison
+
+📁 Project Structure
+
+Data-Science-Tool-Mastery/
+│
+├── data_science_tool_mastery.ipynb
+├── wine_dataset.csv
+├── Data_Science_Tool_Mastery_Report.docx
+├── TuteDude_200_Word_Description.txt
+├── requirements.txt
+├── README.md
+│
+└── figures/
+    ├── 01_class_distribution.png
+    ├── 02_alcohol_distribution.png
+    ├── 03_correlation_heatmap.png
+    ├── 04_alcohol_vs_flavanoids.png
+    ├── 05_color_intensity_boxplot.png
+    ├── 06_confusion_matrix.png
+    ├── 07_feature_importance.png
+    └── 08_model_comparison.png
+
+▶️ How to Run
+
+Clone the repository and install the required libraries:
+
+pip install -r requirements.txt
+
+Then open:
+
+data_science_tool_mastery.ipynb
+
+using Jupyter Notebook or JupyterLab.
+
+💡 Key Learnings
+
+This project provided practical experience in:
+
+- Numerical computation with NumPy
+- Data manipulation with Pandas
+- Data visualization with Matplotlib and Seaborn
+- Machine learning with Scikit-learn
+- Model evaluation and comparison
+- Cross-validation
+- Interpreting data patterns and model results
+- Building a reproducible Data Science workflow
+
+⚠️ Limitations
+
+The Wine dataset is relatively small and is commonly used as a benchmark dataset. Therefore, the model results should not automatically be interpreted as production-level performance.
+
+Feature importance indicates model-specific contribution and does not imply causation. Further experimentation with additional datasets, models, hyperparameter tuning, and external validation could extend this project.
+📚 Dataset Source
+Scikit-learn Wine Dataset:
+https://scikit-learn.org/stable/datasets/toy_dataset.html#wine-dataset
+👩‍💻 Author
+Monika
+B.Tech CSE — AI/ML
+
 
